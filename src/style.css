@@ -1,12 +1,14 @@
 @font-face {
   font-family: 'Monument';
-  src: url('../Resources/Monument/MonumentExtended-Regular.otf') format('opentype');
+  src: url('../Resources/Monument/MonumentExtended-Regular.woff2') format('woff2'),
+       url('../Resources/Monument/MonumentExtended-Regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: 'Monument';
-  src: url('../Resources/Monument/MonumentExtended-Ultrabold.otf') format('opentype');
+ src: url('../Resources/Monument/MonumentExtended-Ultrabold.woff2') format('woff2'),
+       url('../Resources/Monument/MonumentExtended-Ultrabold.woff') format('woff');
   font-weight: 800;
   font-style: normal;
 }
