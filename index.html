@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Level Days - Monstercart</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="src/style.css">
+  <link rel="stylesheet" href="/bootstrap-5.3.8-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="/fontawesome-free-6.2.0-web/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar align-items-center w-100">
+      <div class="container-fluid d-flex align-items-center justify-content-between">
+        <div style="width: 50px;">
+          <a href="" class="navbar-brand">
+            <img src="/src/img/monstercat-logo.svg" alt="Logo" style="width: 50px;">
+          </a>
+        </div>
+        <div class="nav-socials mx-auto">
+          <ul role="list" class="d-flex p-0 gap-4 m-0 nav-socials-ul">
+            <li class="social-item"><a href="https://www.instagram.com/ohzzy_90" class="socials-link"><i
+                  class="fa-brands fa-instagram fs-600 text-light"></i></a></li>
+            <li class="social-item"><a href="https://tiktok.com/@ohzzy90" class="socials-link"><i
+                  class="fa-brands fa-tiktok fs-600 text-light"></i></a></li>
+            <li class="social-item"><a href="https://twitter.com/ohzzy_90" class="socials-link"><i
+                  class="fa-brands fa-twitter fs-600 text-light"></i></a></li>
+            <li class="social-item"><a href="https://www.twitch.tv/ohzzy90" class="socials-link"><i
+                  class="fa-brands fa-twitch fs-600 text-light"></i></a></li>
+            <li class="social-item"><a href="https://web.facebook.com/people/Wisdom-Oscar/61576076156040/"
+                class="socials-link"><i class="fa-brands fa-facebook fs-600 text-light"></i></a></li>
+            <li class="social-item"><a href="https://discord.com/ohzzy90" class="socials-link"><i
+                  class="fa-brands fa-discord fs-600 text-light"></i></a></li>
+            <li class="social-item"><a href="https://www.monstercat.com/player" class="socials-link"><i
+                  class="fa-brands fa-dribbble fs-600 text-light"></i></a></li>
+          </ul>
+        </div>
+        <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+          aria-controls="offcanvasScrolling"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+            viewBox="0 0 24 24" aria-hidden="true" role="img" style="color: #ffffff;">
+            <title>Menu Right</title>
+            <path stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M3 8h18" />
+            <path stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M9 16h12" />
+          </svg></button>
+        <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="true" tabindex="-1"
+          id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel" style="background-color: #000000;">
+          <div class="offcanvas-header">
+            <a href="#" class="offcanvas-title d-flex align-items-center text-decoration-none gap-2"
+              id="offcanvasScrollingLabel"><img src="/src/img/monstercat-logo.svg" alt="Logo" style="width: 50px;">
+              <p class="fw-700 fs-600 text-light">monstercart</p>
+            </a>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav gap-2">
+              <li class="dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  MUSIC
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item nav-link" href="#">OUR MUSIC</a></li>
+                  <li><a class="dropdown-item nav-link" href="#">INSTINCT</a></li>
+                  <li><a class="dropdown-item nav-link" href="#">UNCAGED</a></li>
+                  <li><a class="dropdown-item nav-link" href="#">SILK</a></li>
+                </ul>
+              </li>
+              <li><a href="#" class="nav-link">ARTISTS</a></li>
+              <li class="dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  ABOUT
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item nav-link" href="#">ABOUT MONSTERCART</a></li>
+                  <li><a class="dropdown-item nav-link" href="#">DIVERSITY & INCLUSION</a></li>
+                  <li><a class="dropdown-item nav-link" href="#">CODE OF ETHICS</a></li>
+                  <li><a class="dropdown-item nav-link" href="#">ENVIRONMENTAL</a></li>
+                  <li><a class="dropdown-item nav-link" href="#">CONTACT US</a></li>
+                  <li><a class="dropdown-item nav-link" href="#">CAREERS</a></li>
+                </ul>
+              </li>
+              <li><a href="#" class="nav-link">NEWS</a></li>
+              <li class="dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  EVENTS
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item nav-link" href="#">MONSTERCART EVENTS <br> EXPERIENCE</a></li>
+                  <li><a class="dropdown-item nav-link" href="#">UPCOMING EVENTS</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  PROGRAMMING
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item nav-link" href="#">MonstercartTV</a></li>
+                  <li><a class="dropdown-item nav-link" href="#">CALL OF THE WILD</a></li>
+                  <li><a class="dropdown-item nav-link" href="#">SILK SHOWCASE</a></li>
+                  <li><a class="dropdown-item nav-link" href="#">UPCOMING SHOWS</a></li>
+                </ul>
+              </li>
+              <li><a href="#" class="nav-link">GOLD</a></li>
+              <li><a href="#" class="nav-link">PARTNERS</a></li>
+              <li><a href="#" class="nav-link">PRESS</a></li>
+              <li><a href="#" class="nav-link">PLAYER</a></li>
+              <li><a href="#" class="nav-link">SHOP</a></li>
+              <li><a href="#" class="nav-link">LOST CIVILIZATION</a></li>
+            </ul>
+          </div>
+          <div class="offcanvas-footer my-4 d-grid gap-4 ms-3">
+
+            <ul role="list" class="d-flex p-0 gap-3 m-0">
+              <li class="social-item"><a href="https://www.instagram.com/ohzzy_90" class="socials-link"><i
+                    class="fa-brands fa-instagram fs-600 text-light"></i></a></li>
+              <li class="social-item"><a href="https://tiktok.com/@ohzzy90" class="socials-link"><i
+                    class="fa-brands fa-tiktok fs-600 text-light"></i></a></li>
+              <li class="social-item"><a href="https://twitter.com/ohzzy_90" class="socials-link"><i
+                    class="fa-brands fa-twitter fs-600 text-light"></i></a></li>
+              <li class="social-item"><a href="https://www.twitch.tv/ohzzy90" class="socials-link"><i
+                    class="fa-brands fa-twitch fs-600 text-light"></i></a></li>
+              <li class="social-item"><a href="https://web.facebook.com/people/Wisdom-Oscar/61576076156040/"
+                  class="socials-link"><i class="fa-brands fa-facebook fs-600 text-light"></i></a></li>
+              <li class="social-item"><a href="https://discord.com/ohzzy90" class="socials-link"><i
+                    class="fa-brands fa-discord fs-600 text-light"></i></a></li>
+              <li class="social-item"><a href="https://www.monstercat.com/player" class="socials-link"><i
+                    class="fa-brands fa-dribbble fs-600 text-light"></i></a></li>
+            </ul>
+            <div class="nav-button d-flex gap-2">
+              <button class="btn fs-btn ff-secondary rounded-0 text-light rounded-0" style="border: 1px solid #ffffff;">
+                SIGN IN</button>
+              <button class="btn fs-btn ff-secondary text-light rounded-0"> SIGN UP</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="photo">
+    <section class="hero-header" style="padding-top: 8rem;">
+      <div class="container">
+        <div class="hero-content">
+          <div class="image">
+            <img src="/src/img/album.png" alt="" style="width: 100%;">
+          </div>
+          <div class="outline">
+            <p><span class="clr-accent fs-14">Instinct</span> — Released May 22, 2020</p>
+            <div class=" my-4 d-grid gap-2">
+              <h1 class="card-title">LEVEL DAYS</h1>
+              <h2 class="card-subtitle">CONRO</h2>
+            </div>
+            <div class="card-btn d-flex gap-2">
+              <button
+                class="btn fs-btn ff-secondary rounded-0 text-light rounded-0 bg-accent px-3 py-2 fs-400 play"><img
+                  src="/src/img/play.svg" alt="" style="width: 15px;"> LISTEN NOW</button>
+              <button class="btn fs-btn ff-secondary text-light rounded-0 px-3 py-2 fs-400 play"
+                style="border: 1px solid #ffffff;"><img src="/src/img/share.svg" alt="" style="width: 15px;">
+                SHARE</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section>
+      <div class="container my-5">
+        <div class="stream-container">
+          <div class="stream">
+            <h1 class="my-3">STREAM IT YOUR WAY</h1>
+            <div style="overflow-x: auto; scrollbar-width: none;">
+              <ul role="list" class="d-flex my-4 p-0">
+                <li><a href="monstercat.com" style="border: 1px solid #ffffff;"
+                    class="p-3 fs-500 text-light text-decoration-none player"><i class=" fa-solid fa-play"></i></a>
+                </li>
+                <li><a href="bandcamp.com" style="border: 1px solid #ffffff;" class="p-3 fs-500 text-light player"><i
+                      class="fa-brands fa-bandcamp"></i></a></li>
+                <li><a href="soundcloud.com" style="border: 1px solid #ffffff;" class="p-3 fs-500 text-light player"><i
+                      class="fa-brands fa-soundcloud"></i></a></li>
+                <li><a href="music.apple.com" style="border: 1px solid #ffffff;" class="p-3 fs-500 text-light player"><i
+                      class="fa-brands fa-apple"></i></a></li>
+                <li><a href="youtube.com" style="border: 1px solid #ffffff;" class="p-3 fs-500 text-light player"><i
+                      class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="spotify.com" style="border: 1px solid #ffffff;" class="p-3 fs-500 text-light player"><i
+                      class="fa-brands fa-spotify"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="stream-panel my-5">
+            <h1>TRACK LIST</h1>
+            <div class="items-wrapper my-4">
+              <div class="container py-3">
+                <div class="item d-flex align-items-center row">
+                  <div class="col p-0">
+                    <p class="fs-550">1</p>
+                  </div>
+                  <div class="d-flex gap-4 col-9 p-0">
+                    <img src="/src/img/play.svg" alt="" style="width: 15px;">
+                    <h5 class="fs-550">The Small Things <br><span class="fs-400">Conro</span></h5>
+                  </div>
+                  <div class=" d-flex gap-3 col p-0">
+                    <p class="fs-500">3:35</p>
+                    <img src="/src/img/share.svg" alt="" style="width: 15px;">
+                  </div>
+                </div>
+              </div>
+              <div class="container py-3">
+                <div class="item d-flex align-items-center row">
+                  <div class="col p-0">
+                    <p class="fs-550">2</p>
+                  </div>
+                  <div class="d-flex gap-4 col-9 p-0">
+                    <img src="/src/img/play.svg" alt="" style="width: 15px;">
+                    <h5 class="fs-550">
+                      Without Your Love <br><span class="fs-400">Conro</span></h5>
+                  </div>
+                  <div class=" d-flex gap-3 col p-0">
+                    <p class="fs-500">3:09</p>
+                    <img src="/src/img/share.svg" alt="" style="width: 15px;">
+                  </div>
+                </div>
+              </div>
+              <div class="container py-3">
+                <div class="item d-flex align-items-center row">
+                  <div class="col p-0">
+                    <p class="fs-550">3</p>
+                  </div>
+                  <div class="d-flex gap-4 col-9 p-0">
+                    <img src="/src/img/play.svg" alt="" style="width: 15px;">
+                    <h5 class="fs-550">Therapy <br><span class="fs-400">Conro</span></h5>
+                  </div>
+                  <div class=" d-flex gap-3 col p-0">
+                    <p class="fs-500">3:06</p>
+                    <img src="/src/img/share.svg" alt="" style="width: 15px;">
+                  </div>
+                </div>
+              </div>
+              <div class="container py-3">
+                <div class="item d-flex align-items-center row">
+                  <div class="col p-0">
+                    <p class="fs-550">4</p>
+                  </div>
+                  <div class="d-flex gap-4 col-9 p-0">
+                    <img src="/src/img/play.svg" alt="" style="width: 15px;">
+                    <h5 class="fs-550">Fighters <br><span class="fs-400">Conro</span></h5>
+                  </div>
+                  <div class=" d-flex gap-3 col p-0">
+                    <p class="fs-500">3:46</p>
+                    <img src="/src/img/share.svg" alt="" style="width: 15px;">
+                  </div>
+                </div>
+              </div>
+              <div class="container py-3">
+                <div class="item d-flex align-items-center row">
+                  <div class="col p-0">
+                    <p class="fs-550">5</p>
+                  </div>
+                  <div class="d-flex gap-4 col-9 p-0">
+                    <img src="/src/img/play.svg" alt="" style="width: 15px;">
+                    <h5 class="fs-550">Way Up <br><span class="fs-400">Conro & Nevve</span></h5>
+                  </div>
+                  <div class=" d-flex gap-3 col p-0">
+                    <p class="fs-500">3:32</p>
+                    <img src="/src/img/share.svg" alt="" style="width: 15px;">
+                  </div>
+                </div>
+              </div>
+              <div class="container py-3">
+                <div class="item d-flex align-items-center row">
+                  <div class="col p-0">
+                    <p class="fs-550">6</p>
+                  </div>
+                  <div class="d-flex gap-4 col-9 p-0">
+                    <img src="/src/img/play.svg" alt="" style="width: 15px;">
+                    <h5 class="fs-550">Waiting <br><span class="fs-400">Conro</span></h5>
+                  </div>
+                  <div class=" d-flex gap-3 col p-0">
+                    <p class="fs-500">3:07</p>
+                    <img src="/src/img/share.svg" alt="" style="width: 15px;">
+                  </div>
+                </div>
+              </div>
+              <div class="container py-3">
+                <div class="item d-flex align-items-center row">
+                  <div class="col p-0">
+                    <p class="fs-550">7</p>
+                  </div>
+                  <div class="d-flex gap-4 col-9 p-0">
+                    <img src="/src/img/play.svg" alt="" style="width: 15px;">
+                    <h5 class="fs-550">Dreaming <br><span class="fs-400">Conro</span></h5>
+                  </div>
+                  <div class=" d-flex gap-3 col p-0">
+                    <p class="fs-500">2:57</p>
+                    <img src="/src/img/share.svg" alt="" style="width: 15px;">
+                  </div>
+                </div>
+              </div>
+              <div class="container py-3">
+                <div class="item d-flex align-items-center row">
+                  <div class="col p-0">
+                    <p class="fs-550">8</p>
+                  </div>
+                  <div class="d-flex gap-4 col-9 p-0">
+                    <img src="/src/img/play.svg" alt="" style="width: 15px;">
+                    <h5 class="fs-550">Tattoo<br><span class="fs-400">Conro</span></h5>
+                  </div>
+                  <div class=" d-flex gap-3 col p-0">
+                    <p class="fs-500">3:29</p>
+                    <img src="/src/img/share.svg" alt="" style="width: 15px;">
+                  </div>
+                </div>
+              </div>
+              <div class="container py-3">
+                <div class="item d-flex align-items-center row">
+                  <div class="col p-0">
+                    <p class="fs-550">9</p>
+                  </div>
+                  <div class="d-flex gap-4 col-9 p-0">
+                    <img src="/src/img/play.svg" alt="" style="width: 15px;">
+                    <h5 class="fs-550">Out for the Night <br><span class="fs-400">Conro</span></h5>
+                  </div>
+                  <div class=" d-flex gap-3 col p-0">
+                    <p class="fs-500">3:05</p>
+                    <img src="/src/img/share.svg" alt="" style="width: 15px;">
+                  </div>
+                </div>
+              </div>
+              <div class="container py-3">
+                <div class="item d-flex align-items-center row">
+                  <div class="col p-0">
+                    <p class="fs-550">10</p>
+                  </div>
+                  <div class="d-flex gap-4 col-9 p-0">
+                    <img src="/src/img/play.svg" alt="" style="width: 15px;">
+                    <h5 class="fs-550">Overdue <br><span class="fs-400">Conro</span></h5>
+                  </div>
+                  <div class=" d-flex gap-3 col p-0">
+                    <p class="fs-500">2:48</p>
+                    <img src="/src/img/share.svg" alt="" style="width: 15px;">
+                  </div>
+                </div>
+              </div>
+              <div class="container py-3">
+                <div class="item d-flex align-items-center row">
+                  <div class="col p-0">
+                    <p class="fs-550">11</p>
+                  </div>
+                  <div class="d-flex gap-4 col-9 p-0">
+                    <img src="/src/img/play.svg" alt="" style="width: 15px;">
+                    <h5 class="fs-550">Say It <br><span class="fs-400">Conro</span></h5>
+                  </div>
+                  <div class=" d-flex gap-3 col p-0">
+                    <p class="fs-500">3:04</p>
+                    <img src="/src/img/share.svg" alt="" style="width: 15px;">
+                  </div>
+                </div>
+              </div>
+              <div class="container py-3">
+                <div class="item d-flex align-items-center row">
+                  <div class="col p-0">
+                    <p class="fs-550">12</p>
+                  </div>
+                  <div class="d-flex gap-4 col-9 p-0">
+                    <img src="/src/img/play.svg" alt="" style="width: 15px;">
+                    <h5 class="fs-550">Here to Stay <br><span class="fs-400">Conro</span></h5>
+                  </div>
+                  <div class=" d-flex gap-3 col p-0">
+                    <p class="fs-500">2:44</p>
+                    <img src="/src/img/share.svg" alt="" style="width: 15px;">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="yt-wrapper">
+          <h1>MUSIC VIDEO</h1>
+          <div class="video-container my-5">
+            <iframe
+              src="https://www.youtube.com/embed/7nObtWENgxA?si=KGepgeKYUUvv2Fxn"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen>
+            </iframe>
+          </div>
+          <hr class="my-4">
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="footer-nav d-grid my-5">
+          <div>
+            <ul role="list" class="d-grid gap-2 m-0 px-0 pb-2">
+              <li><a href="#" class="nav-link text-light text-decoration-none fs-500">ABOUT MONSTERCART</a></li>
+              <li><a href="#" class="nav-link text-light text-decoration-none fs-500">CONTACT US</a></li>
+              <li><a href="#" class="nav-link text-light text-decoration-none fs-500">CAREERS</a></li>
+              <li><a href="#" class="nav-link text-light text-decoration-none fs-500">NEWS</a></li>
+              <li><a href="#" class="nav-link text-light text-decoration-none fs-500">PRESS</a></li>
+
+            </ul>
+          </div>
+
+          <div>
+            <ul role="list" class="d-grid  gap-2 px-0 mb-5">
+              <li><a href="#" class="nav-link text-light text-decoration-none fs-500">TERMS OF SERVICE</a></li>
+              <li><a href="#" class="nav-link text-light text-decoration-none fs-500">PRIVACY POLICY</a></li>
+            </ul>
+          </div>
+
+          <div class="d-grid gap-4">
+            <h4 class="ff-secondary opacity-75">MONSTERCART NEWS</h4>
+            <p style="letter-spacing: 2px;" class="fs-14"><i>Don't miss a thing, stay up to date with the latest news
+                from us.</i></p>
+            <form action="/subscribe" method="POST" class="input-wrapper">
+              <input type="email" name="email" placeholder="Enter email">
+              <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+            </form>
+
+          </div>
+
+        </div>
+        <hr class="my-4">
+        <div class="footnote-wrapper d-grid gap-4 pb-4">
+          <div class="d-grid gap-4 footer-socials">
+            <p class="fs-14" style="letter-spacing: 2px;"><i>2011 - 2025 © Monstercat, All Rights Reserved</i></p>
+            <div>
+              <ul role="list" class="d-flex p-0 gap-4 m-0 sos" style="overflow-x: auto; scrollbar-width: none;">
+                <li class="social-item"><a href="https://www.instagram.com/ohzzy_90" class="socials-link"><i
+                      class="fa-brands fa-instagram fs-600 text-light"></i></a></li>
+                <li class="social-item"><a href="https://tiktok.com/@ohzzy90" class="socials-link"><i
+                      class="fa-brands fa-tiktok fs-600 text-light"></i></a></li>
+                <li class="social-item"><a href="https://twitter.com/ohzzy_90" class="socials-link"><i
+                      class="fa-brands fa-twitter fs-600 text-light"></i></a></li>
+                <li class="social-item"><a href="https://www.twitch.tv/ohzzy90" class="socials-link"><i
+                      class="fa-brands fa-twitch fs-600 text-light"></i></a></li>
+                <li class="social-item"><a href="https://web.facebook.com/people/Wisdom-Oscar/61576076156040/"
+                    class="socials-link"><i class="fa-brands fa-facebook fs-600 text-light"></i></a></li>
+                <li class="social-item"><a href="https://discord.com/ohzzy90" class="socials-link"><i
+                      class="fa-brands fa-discord fs-600 text-light"></i></a></li>
+                <li class="social-item"><a href="https://www.monstercat.com/player" class="socials-link"><i
+                      class="fa-brands fa-dribbble fs-600 text-light"></i></a></li>
+                <li><a href="music.apple.com" class="fs-600 text-light"><i class="fa-brands fa-apple"></i></a></li>
+                <li><a href="youtube.com" class="fs-600 text-light"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="spotify.com" class="fs-600 text-light"><i class="fa-brands fa-spotify"></i></a></li>
+              </ul>
+            </div>
+
+          </div>
+          <div class="d-grid gap-3 text-align-center fs-300 py-5" style="text-align: center;">
+            <p><i>We acknowledge with gratitude the traditional, ancestral and unceded land of the Coast Salish peoples,
+                including the territories of the Sḵwx̱wú7mesh (Squamish), Stó:lō and Səl̓ílwətaʔ/Selilwitulh
+                (Tsleil-Waututh) and xʷməθkʷəy̓əm (Musqueam) Nations, on which Monstercat's Vancouver HQ stands.</i></p>
+            <p><i>We acknowledge the unceded and ancestral territories of the Gabrielino/Tongva peoples on which our LA
+                team live and work.
+              </i></p>
+               <p>Recreated from monstercat.com with <i class="fa-solid fa-heart text-danger"></i> by
+            Ohzzy </p>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="/bootstrap-5.3.8-dist/js/bootstrap.min.js"></script>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
