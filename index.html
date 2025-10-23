@@ -489,12 +489,12 @@
       if (audio.paused) {
         audio.play()
           .then(() => playButton.innerHTML = `<i
-                      class="fa-solid fa-pause fs-600 text-light"></i> PAUSE`)
+                      class="fa-solid fa-pause fs-500 text-light"></i> PAUSE`)
           .catch(e => console.log('Error:', e));
       } else {
         audio.pause();
         playButton.innerHTML = `<i
-                      class="fa-solid fa-play fs-600 text-light"></i> LISTEN NOW`;
+                      class="fa-solid fa-play fs-500 text-light"></i> LISTEN NOW`;
       }
     });
   });
