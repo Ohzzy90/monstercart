@@ -1,15 +1,15 @@
 @font-face {
   font-family: 'Monument';
-  src: url('/Resources/Monument/MonumentExtended-Regular.woff2') format('woff2'),
-       url('/Resources/Monument/MonumentExtended-Regular.woff') format('woff');
+  src: url('/fonts/MonumentExtended-Regular.woff2') format('woff2'),
+       url('/fonts/MonumentExtended-Regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Monument';
- src: url('/Resources/Monument/MonumentExtended-Ultrabold.woff2') format('woff2'),
-       url('/Resources/Monument/MonumentExtended-Ultrabold.woff') format('woff');
+  src: url('/fonts/MonumentExtended-Ultrabold.woff2') format('woff2'),
+       url('/fonts/MonumentExtended-Ultrabold.woff') format('woff');
   font-weight: 800;
   font-style: normal;
   font-display: swap;
