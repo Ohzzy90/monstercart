@@ -23,3 +23,21 @@ document.querySelector('#app').innerHTML = `
 
 setupCounter(document.querySelector('#counter'))
 
+
+  const shareBtn = document.getElementById('shareBtn');
+
+  shareBtn.addEventListener('click', async () => {
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          title: 'Monstercart Music',
+          text: 'Check out this track I’m listening to!',
+          url: window.location.href
+        });
+      } catch (err) {
+        console.log('Share cancelled or failed:', err);
+      }
+    } else {
+      alert('Your browser doesn’t support native sharing.');
+    }
+  });
