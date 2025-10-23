@@ -488,11 +488,11 @@
     playButton.addEventListener('click', () => {
       if (audio.paused) {
         audio.play()
-          .then(() => playButton.innerHTML = `<img src="/src/img/pause.svg" style="width:15px;"> PAUSE`)
+          .then(() => playButton.innerHTML = `<img src="img/pause.svg" style="width:15px;"> PAUSE`)
           .catch(e => console.log('Error:', e));
       } else {
         audio.pause();
-        playButton.innerHTML = `<img src="/src/img/play.svg" style="width:15px;"> LISTEN NOW`;
+        playButton.innerHTML = `<img src="img/play.svg" style="width:15px;"> LISTEN NOW`;
       }
     });
   });
